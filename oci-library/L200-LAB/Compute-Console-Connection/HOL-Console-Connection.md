@@ -36,19 +36,15 @@ Before you can connect to the serial console, you need to create the instance co
 
 Your access credentials are as follows:
 
-**Tenant Name:** {{Tenant_Name}}
-
-**User Name:** {{User_name}}
-
-**Password:** {{Password}}
+* **Tenant Name:** {{Tenant_Name}}
+* **User Name:** {{User_name}}
+* **Password:** {{Password}}
 
 1. Open the navigation menu. Under **Core Infrastructure**, go to **Compute** and click **Instances**.
-
 2. In the list of instances, find the Linux instance you want to access the serial console for, and then click the instance name.
-
 3. In the **Resources** section on the **Instance Details** page, click **Console Connections**, and then click **Create Console Connection**.
    
-![](https://raw.githubusercontent.com/connor-schmidt/learning-library/master/oci-library/L200-LAB/Compute-Console-Connection/img/image001.png)
+<img width="800" alt="image1" src="https://raw.githubusercontent.com/connor-schmidt/learning-library/master/oci-library/L200-LAB/Compute-Console-Connection/img/image001.png">
    
 4. Add your public SSH key, either by browsing and selecting a public key file, for example `id_rsa.pub`, or by pasting your public key into the text box.
    
