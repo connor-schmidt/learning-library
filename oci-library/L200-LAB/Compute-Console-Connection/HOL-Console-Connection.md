@@ -35,8 +35,11 @@ There are two types of instance console connections:
 Before you can connect to the serial console, you need to create the instance console connection.
 
 Your access credentials are as follows:
-**Tenant Name:** {{Tenant_name}}
+
+**Tenant Name:** {{Tenant_Name}}
+
 **User Name:** {{User_name}}
+
 **Password:** {{Password}}
 
 1. Open the navigation menu. Under **Core Infrastructure**, go to **Compute** and click **Instances**.
@@ -45,11 +48,11 @@ Your access credentials are as follows:
 
 3. In the **Resources** section on the **Instance Details** page, click **Console Connections**, and then click **Create Console Connection**.
    
-   ![](https://raw.githubusercontent.com/connor-schmidt/learning-library/master/oci-library/L200-LAB/Compute-Console-Connection/img/image001.png)
+![](https://raw.githubusercontent.com/connor-schmidt/learning-library/master/oci-library/L200-LAB/Compute-Console-Connection/img/image001.png)
    
 4. Add your public SSH key, either by browsing and selecting a public key file, for example `id_rsa.pub`, or by pasting your public key into the text box.
    
-   ![](https://raw.githubusercontent.com/connor-schmidt/learning-library/master/oci-library/L200-LAB/Compute-Console-Connection/img/image002.png)
+![](https://raw.githubusercontent.com/connor-schmidt/learning-library/master/oci-library/L200-LAB/Compute-Console-Connection/img/image002.png)
    
 5. Click **Create Console Connection** (Refresh the screen and you will see an Active Console Connection).
 
@@ -63,11 +66,11 @@ Once you have created the console connection for the instance, you can then conn
 
 2. Click the Actions icon (three dots), and then click **Connect with SSH**.
    
-   ![](https://raw.githubusercontent.com/connor-schmidt/learning-library/master/oci-library/L200-LAB/Compute-Console-Connection/img/image003.png)
+![](https://raw.githubusercontent.com/connor-schmidt/learning-library/master/oci-library/L200-LAB/Compute-Console-Connection/img/image003.png)
 
 3. Select **LINUX/MAC OS** for **PLATFORM** and click **Copy** to copy the string to the clipboard
    
-   ![](https://raw.githubusercontent.com/connor-schmidt/learning-library/master/oci-library/L200-LAB/Compute-Console-Connection/img/image004.png)
+![](https://raw.githubusercontent.com/connor-schmidt/learning-library/master/oci-library/L200-LAB/Compute-Console-Connection/img/image004.png)
    
 4. Paste the connection string copied from the previous step to the gitbash installed on your Windows laptop, and hit enter to connect to the console.
 
