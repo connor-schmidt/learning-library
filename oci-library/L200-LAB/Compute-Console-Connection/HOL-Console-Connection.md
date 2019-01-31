@@ -50,7 +50,7 @@ Your access credentials are as follows:
    
 4. Add your public SSH key, either by browsing and selecting a public key file, for example `id_rsa.pub`, or by pasting your public key into the text box.
    
-![](https://raw.githubusercontent.com/connor-schmidt/learning-library/master/oci-library/L200-LAB/Compute-Console-Connection/img/image002.png)
+<img src="https://raw.githubusercontent.com/connor-schmidt/learning-library/master/oci-library/L200-LAB/Compute-Console-Connection/img/image002.png alt="image1" height="153" width="600">
    
 5. Click **Create Console Connection** (Refresh the screen and you will see an Active Console Connection).
 
