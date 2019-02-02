@@ -30,7 +30,7 @@ There are two types of instance console connections:
 
 - Oracle Cloud Infrastructure account credentials (Tenant ID, Username and Password)
 
-## Practice 1: Creating the Instance Console Connection
+## Practice 1: Insert Text
 
 Before you can connect to the serial console, you need to create the instance console connection.
 
@@ -46,7 +46,7 @@ Your access credentials are as follows:
 
 3. In the **Resources** section on the **Instance Details** page, click **Console Connections**, and then click **Create Console Connection**.
    
-<img src="https://raw.githubusercontent.com/connor-schmidt/learning-library/master/oci-library/L200-LAB/Compute-Console-Connection/img/image001.png" alt="image1" height="153" width="600">
+<img src="https://raw.githubusercontent.com/user-name/learning-library/master/cloud-library/MYLAB/example-lab-title/img/image001.png" alt="image1" height="153" width="600">
    
 4. Add your public SSH key, either by browsing and selecting a public key file, for example `id_rsa.pub`, or by pasting your public key into the text box.
    
